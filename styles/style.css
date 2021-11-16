@@ -25,20 +25,18 @@
   top: 30px;
   left: 64px;
   z-index: 2;
-
 }
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
-  display: flex;
+  margin: 0 0 0 64px;
   font-size: 102px;  /*размер шрифта*/
-  line-height: 96px; /*выота строки*/
+  line-height: 96px; /*выcота строки*/
   font-weight: bold;
-  position: absolute;
+  position: relative;
   z-index: 2;
-
 }
+
 .header__subtitle {
 width: 388px;
 font-size: 18px;
@@ -47,7 +45,13 @@ font-weight: normal;
 position: absolute;
 left: 64px;
 bottom: 30px;
+margin: 0;
 z-index: 2;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -85,7 +89,7 @@ z-index: 2;
 
 .two-columns__brief {
   font-size: 18px;  /*размер шрифта*/
-  line-height: 12px; /*выcота строки*/
+  line-height: 1.2; /*выcота строки*/
   font-weight: normal; /*начертание- нежирный, нормальный*/
   color: #2f80ed;
   width: 175px;
@@ -108,6 +112,7 @@ font-size: 24px;
 line-height: 34px;
 font-weight: normal;
 margin-top: 20px;
+margin-bottom: 0;
 }
 
 .two-columns__paragraph:nth-of-type(1) {
@@ -180,7 +185,7 @@ margin-top: 20px;
 .feynman {
   background-color: #f2f2f2;
   position: relative;
-  height: 890px;
+  min-height: 890px;
 }
 
 .feynman__title {
@@ -197,11 +202,8 @@ margin-top: 20px;
 }
 
 .feynman__subtitle {
-/*  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center; */
   margin-top: 70px;
+  margin-bottom: 0;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
@@ -212,6 +214,8 @@ margin-top: 20px;
 
 .feynman__link {
   position: absolute;
+  color: #2f80ed;
+  text-decoration: none;
   top: 50%;
   right: 48px;
   font-size: 36px;
@@ -280,16 +284,16 @@ margin-top: 20px;
 }
 
 .footer {
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   display: flex;
   /*flex-direction: column;*/
   justify-content: center;
   align-items: center;
+  min-height: 350px;
 }
   
 .footer__columns {
-  min-height: 350px;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -320,6 +324,7 @@ margin-top: 20px;
   line-height: 30px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .footer__column-links {
@@ -334,11 +339,13 @@ margin-top: 20px;
   font-weight: normal;
   margin-top: 10px;
   color: white;
+  text-decoration: none;
 }
 
 .footer__social-icon {
   list-style: none;
   padding-left: 0;
+  padding-right: 10px;
 }
 
 
