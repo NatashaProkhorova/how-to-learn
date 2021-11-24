@@ -1,0 +1,8 @@
+.two-columns__brief {
+  font-size: 18px;  /*размер шрифта*/
+  line-height: 1.2; /*выcота строки*/
+  font-weight: normal; /*начертание- нежирный, нормальный*/
+  color: #2f80ed;
+  width: 175px;
+  margin: 0;
+}
