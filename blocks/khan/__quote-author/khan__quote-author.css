@@ -1,6 +1,9 @@
 .khan__quote-author {
-    margin: 36px 0 10px;
-    font-size: 24px;  /*размер шрифта*/
-    line-height: 1.15; /*выcота строки*/
-    font-weight: bold;
-  }
+  margin: 36px 0 10px;
+  font-size: 24px;
+  /*размер шрифта*/
+  line-height: 1.15;
+  /*выcота строки*/
+  font-weight: bold;
+  font-style: normal;
+}

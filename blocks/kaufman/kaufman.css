@@ -1,10 +1,11 @@
 .kaufman {
-    background-color: #1f1f1f;
-    padding: 90px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;  /*выравниваем элементы по центру (в вебинаре2)*/
-    position: relative;
-    z-index: 0;
-    overflow: hidden; /*чтобы не выходил за пределы*/
-  }
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  /*чтобы не выходил за пределы*/
+}
